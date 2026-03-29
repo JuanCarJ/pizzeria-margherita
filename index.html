@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margherita Pan & Pizza — Rionegro</title>
+  <meta name="description" content="Pizza artesanal en Rionegro, Antioquia. Masa hecha a mano, ingredientes frescos, tradicion italiana. Pide por WhatsApp.">
+  <meta name="theme-color" content="#1A1612">
+  <meta property="og:title" content="Margherita Pan & Pizza — Rionegro">
+  <meta property="og:description" content="Pizza artesanal con ingredientes frescos y masa hecha a mano. Pide por WhatsApp.">
+  <meta property="og:image" content="../fotos/Banner pizza 2.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <link rel="icon" type="image/png" href="../fotos/Instagram profile picture.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="grain">
+
+  <!-- Skip to content (accessibility) -->
+  <a href="#inicio" class="skip-link">Saltar al contenido</a>
+
+  <!-- ═══════ Navigation ═══════ -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="../fotos/logo.png" alt="Margherita Pan & Pizza" width="48" height="48">
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+
+      <a href="https://wa.me/573044124917?text=Hola%2C%20quiero%20hacer%20un%20pedido" class="nav-cta" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Pedir
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu de navegacion">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+  <!-- ═══════ Hero ═══════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img src="../fotos/Banner pizza 2.jpg" alt="Mesa con panes artesanales y pizza junto al logo de Margherita" width="1600" height="900" fetchpriority="high">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <img src="../fotos/logo.png" alt="" class="hero-logo" aria-hidden="true" width="160" height="160">
+      <h1 class="hero-brand">Margherita</h1>
+      <p class="hero-brand-sub">Pan & Pizza</p>
+      <div class="flag-divider">
+        <span class="green"></span>
+        <span class="white"></span>
+        <span class="red"></span>
+      </div>
+      <p class="hero-tagline">M&aacute;s que una pizza,<br><em>un momento inolvidable.</em></p>
+      <p class="hero-subtitle">Pizza artesanal con ingredientes frescos y masa hecha a mano, en Rionegro.</p>
+      <a href="https://wa.me/573044124917?text=Hola%2C%20quiero%20hacer%20un%20pedido" class="btn-primary" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Pide la tuya
+      </a>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ═══════ Photo Carousel (2 rows) ═══════ -->
+  <section class="carousel-section section-dark">
+    <!-- Row 1: scrolls left -->
+    <div class="carousel" aria-label="Fotos de nuestras pizzas y platos">
+      <div class="carousel-track carousel-track--left">
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-02-07 at 17.16.38.jpeg" alt="Margherita Bufalina con bocconcini y albahaca" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0032.jpg" alt="Pizza Chicago deep dish" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-02-03 at 17.48.02.jpeg" alt="Pizza con tocineta dorada" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0029.jpg" alt="Romana al Taglio sobre tabla de madera" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-01-29 at 18.03.18.jpeg" alt="Pizza Hawaiana" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-02-22 at 13.11.26.jpeg" alt="Prosciutto e Funghi" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2025-12-10 at 17.51.26.jpeg" alt="Pizza mitad y mitad" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0036.jpg" alt="Berenjena Parmesana" loading="lazy"></div>
+        <!-- Duplicates -->
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-02-07 at 17.16.38.jpeg" alt="Margherita Bufalina con bocconcini y albahaca" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0032.jpg" alt="Pizza Chicago deep dish" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-02-03 at 17.48.02.jpeg" alt="Pizza con tocineta dorada" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0029.jpg" alt="Romana al Taglio sobre tabla de madera" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-01-29 at 18.03.18.jpeg" alt="Pizza Hawaiana" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-02-22 at 13.11.26.jpeg" alt="Prosciutto e Funghi" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2025-12-10 at 17.51.26.jpeg" alt="Pizza mitad y mitad" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0036.jpg" alt="Berenjena Parmesana" loading="lazy"></div>
+      </div>
+    </div>
+    <!-- Row 2: scrolls right (reverse) -->
+    <div class="carousel">
+      <div class="carousel-track carousel-track--right">
+        <div class="carousel-slide"><img src="../fotos/P_20210930_114126.jpg" alt="Pan artesanal reci&eacute;n horneado" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-01-25 at 17.04.09.jpeg" alt="Masa artesanal gruesa vista lateral" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-02-28 at 17.23.45.jpeg" alt="Pizza con jam&oacute;n y champi&ntilde;ones" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/Lasagna.jpg" alt="Lasagna casera con pasta de espinaca" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0038.jpg" alt="Flan de caramelo casero" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/Beerenjena Parmesana.jpg" alt="Berenjena Parmesana" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0037.jpg" alt="Berenjena Parmesana con queso gratinado" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/P_20210704_103913.jpg" alt="Pan artesanal sobre tabla" loading="lazy"></div>
+        <!-- Duplicates -->
+        <div class="carousel-slide"><img src="../fotos/P_20210930_114126.jpg" alt="Pan artesanal reci&eacute;n horneado" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-01-25 at 17.04.09.jpeg" alt="Masa artesanal gruesa vista lateral" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/WhatsApp Image 2026-02-28 at 17.23.45.jpeg" alt="Pizza con jam&oacute;n y champi&ntilde;ones" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/Lasagna.jpg" alt="Lasagna casera con pasta de espinaca" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0038.jpg" alt="Flan de caramelo casero" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/Beerenjena Parmesana.jpg" alt="Berenjena Parmesana" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/IMG-20210927-WA0037.jpg" alt="Berenjena Parmesana con queso gratinado" loading="lazy"></div>
+        <div class="carousel-slide"><img src="../fotos/P_20210704_103913.jpg" alt="Pan artesanal sobre tabla" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ Lightbox ═══════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar imagen">&times;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  </div>
+
+  <!-- ═══════ Nosotros / Esencia ═══════ -->
+  <section class="about section-light section-padding" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="overline" data-reveal>Nuestra Esencia</span>
+          <h2 class="headline" data-reveal="1">Tradici&oacute;n italiana,<br>hecha con las manos</h2>
+          <p data-reveal="2">
+            En Margherita creemos que una buena pizza empieza con una buena masa. Por eso
+            preparamos todo desde cero: desde el pan artesanal hasta la salsa 100% tomate natural.
+            Cada ingrediente cuenta.
+          </p>
+          <p data-reveal="3">
+            Nuestra carta recorre Italia y el mundo: la cl&aacute;sica Napoletana de borde grueso y
+            centro delgado, la Romana al Taglio crujiente y rectangular, la profunda Chicago,
+            y hasta la r&uacute;stica Flammkuchen franco-alemana. Todo horneado con amor en Rionegro.
+          </p>
+        </div>
+        <div class="about-image" data-reveal="2">
+          <img src="../fotos/P_20210930_114126.jpg" alt="Pan artesanal recien horneado sobre tabla de madera con aceite de oliva" width="600" height="750">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ Menu ═══════ -->
+  <section class="menu-section section-dark section-padding" id="menu">
+    <div class="container">
+      <div class="menu-header" data-reveal>
+        <span class="overline">Nuestra Carta</span>
+        <h2 class="headline">El Men&uacute;</h2>
+        <div class="flag-divider">
+          <span class="green"></span>
+          <span class="white"></span>
+          <span class="red"></span>
+        </div>
+        <div class="menu-sizes">
+          <div class="size-badge grande">
+            <strong>Grande</strong>
+            <span>8 porciones</span>
+          </div>
+          <div class="size-badge personal">
+            <strong>Personal</strong>
+            <span>4 porciones</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-list">
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Margherita Cl&aacute;sica</h3>
+            <p class="menu-item-desc">Salsa 100% tomate natural, albahaca fresca, mozzarella de vaca, aceite de oliva Virgen Extra</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">35k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">25k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Margherita%20Cl%C3%A1sica" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Margherita Bufalina <span class="menu-item-tag">Premium</span></h3>
+            <p class="menu-item-desc">Salsa 100% tomate natural, mozzarella, bocconcini (mozzarella de b&uacute;fala), albahaca fresca, tomates cherry, aceite de oliva extra virgen</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">49k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">35k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Margherita%20Bufalina" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Pepperoni Importado <span class="menu-item-tag">Premium</span></h3>
+            <p class="menu-item-desc">Salsa 100% tomate natural, mozzarella, pepperoni importado</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">49k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">35k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Pepperoni%20Importado" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Hawaiana</h3>
+            <p class="menu-item-desc">Pi&ntilde;a natural caramelizada en su propio jugo (cero latas), jam&oacute;n cocido (York) y queso mozzarella</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">40k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">28k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Hawaiana" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Vegetariana de la Huerta</h3>
+            <p class="menu-item-desc">Mozzarella de vaca, pimentones (frescos o ahumados), cebolla, ma&iacute;z tierno, albahaca</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">39k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">28k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Vegetariana%20de%20la%20Huerta" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Vegetariana de la Huerta <span class="menu-item-tag">Premium</span></h3>
+            <p class="menu-item-desc">Mozzarella de vaca y queso creme fresh, champi&ntilde;ones frescos, pimentones, cebolla, ma&iacute;z tierno, tomates cherry, albahaca y aceitunas negras</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">55k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">39k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Vegetariana%20de%20la%20Huerta%20Premium" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Pollo con Champi&ntilde;ones</h3>
+            <p class="menu-item-desc">Salsa 100% tomate natural, mozzarella, champi&ntilde;ones frescos cortados al momento, pollo salteado</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">45k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">32k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Pollo%20con%20Champi%C3%B1ones" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Pollo, Champi&ntilde;ones y Tocineta <span class="menu-item-tag">Premium</span></h3>
+            <p class="menu-item-desc">Salsa 100% tomate natural, mozzarella, champi&ntilde;ones frescos cortados al momento, pollo salteado y tocineta</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">52k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">37k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Pollo%2C%20Champi%C3%B1ones%20y%20Tocineta" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Prosciutto</h3>
+            <p class="menu-item-desc">Jam&oacute;n cocido (York)</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">39k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">28k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Prosciutto" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Prosciutto e Funghi</h3>
+            <p class="menu-item-desc">Jam&oacute;n cocido (York) y champi&ntilde;ones frescos cortados al momento y con todo su aroma terroso</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">45k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">32k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Prosciutto%20e%20Funghi" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Emilia Romana (Emiliana) <span class="menu-item-tag">Premium</span></h3>
+            <p class="menu-item-desc">Prosciutto crudo, r&uacute;cula, Parmigiano y chorrito de aceite de Oliva Virgen Extra</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">62k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">44k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Emilia%20Romana" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Capricciosa <span class="menu-item-tag">Premium</span></h3>
+            <p class="menu-item-desc">Prosciutto cotto, champi&ntilde;ones, aceitunas negras, alcachofas</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">85k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">59k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Capricciosa" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+
+        <div class="menu-item" data-reveal>
+          <div class="menu-item-info">
+            <h3 class="menu-item-name">Flammkuchen Cl&aacute;sica</h3>
+            <p class="menu-item-desc">Queso Creme Fresh, tocineta ahumada, cebolla caramelizada. La r&uacute;stica franco-alemana.</p>
+          </div>
+          <div class="menu-item-right">
+            <div class="menu-item-prices">
+              <div><span class="price">39k</span><span class="price-label">Grande</span></div>
+              <div><span class="price">28k</span><span class="price-label">Personal</span></div>
+            </div>
+            <a href="https://wa.me/573044124917?text=Hola.%20Quiero%20una%20pizza%20Flammkuchen%20Cl%C3%A1sica" class="btn-order" target="_blank" rel="noopener noreferrer">Ordenar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ Specials ═══════ -->
+  <section class="specials section-dark section-padding">
+    <div class="container">
+      <div class="specials-header" data-reveal>
+        <span class="overline">M&aacute;s que Pizza</span>
+        <h2 class="headline">Nuestros Especiales</h2>
+        <div class="flag-divider">
+          <span class="green"></span>
+          <span class="white"></span>
+          <span class="red"></span>
+        </div>
+      </div>
+
+      <div class="specials-grid">
+        <div class="special-card" data-reveal>
+          <img src="../fotos/IMG-20210927-WA0036.jpg" alt="Berenjena Parmesana con salsa de tomate y queso gratinado" width="400" height="533" loading="lazy">
+          <div class="special-card-overlay">
+            <h3>Berenjena Parmesana</h3>
+            <p>Aut&eacute;ntica tradici&oacute;n italiana. Capas de berenjena, salsa de tomate y queso gratinado.</p>
+          </div>
+        </div>
+        <div class="special-card" data-reveal="1">
+          <img src="../fotos/Lasagna.jpg" alt="Lasagna casera con pasta fresca de espinaca y bechamel" width="400" height="533" loading="lazy">
+          <div class="special-card-overlay">
+            <h3>Lasagna</h3>
+            <p>Pasta fresca de espinaca, aut&eacute;ntica bechamel hecha en casa, rag&uacute; bolognese con carne de primera.</p>
+          </div>
+        </div>
+        <div class="special-card" data-reveal="2">
+          <img src="../fotos/IMG-20210927-WA0038.jpg" alt="Flan de caramelo casero con salsa dorada" width="400" height="533" loading="lazy">
+          <div class="special-card-overlay">
+            <h3>Flan de Caramelo</h3>
+            <p>Irresistible y delicioso postre casero. El cierre perfecto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ CTA / Order ═══════ -->
+  <section class="cta-section section-dark section-padding">
+    <div class="container">
+      <div class="cta-content" data-reveal>
+        <span class="overline">Haz tu pedido</span>
+        <h2 class="display">Tu pizza est&aacute; a un<br><span class="text-accent">mensaje</span> de distancia</h2>
+        <p>Escr&iacute;benos por WhatsApp y recibe tu pizza artesanal favorita.</p>
+        <a href="https://wa.me/573044124917?text=Hola%2C%20quiero%20hacer%20un%20pedido" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Pedir por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ═══════ Footer ═══════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="../fotos/logo.png" alt="Margherita Pan & Pizza" width="64" height="64">
+          <p>Pizza artesanal con alma italiana. Masa hecha a mano, ingredientes frescos, y mucho amor en cada preparaci&oacute;n. Rionegro, Antioquia.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li>
+              <a href="https://wa.me/573044124917" class="social-link" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                304 412 4917
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/margherita.rionegro" class="social-link" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                @margherita.rionegro
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>Margherita Pan &amp; Pizza &mdash; Rionegro, Antioquia</p>
+        <div class="flag-divider flag-divider--inline">
+          <span class="green"></span>
+          <span class="white"></span>
+          <span class="red"></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════ Scripts ═══════ -->
+  <script>
+    /* Navigation scroll effect */
+    const nav = document.getElementById('nav');
+    const observerTarget = document.querySelector('.hero');
+
+    const navObserver = new IntersectionObserver(
+      ([entry]) => {
+        nav.classList.toggle('scrolled', !entry.isIntersecting);
+      },
+      { threshold: 0.1 }
+    );
+    navObserver.observe(observerTarget);
+
+    /* Mobile menu toggle */
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    navToggle.addEventListener('click', () => {
+      nav.classList.toggle('menu-open');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('menu-open');
+      });
+    });
+
+    /* Scroll reveal system */
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!prefersReducedMotion) {
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12, rootMargin: '0px 0px -50px 0px' }
+      );
+
+      document.querySelectorAll('[data-reveal]').forEach((el) => {
+        revealObserver.observe(el);
+      });
+    }
+
+    /* Lightbox */
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxClose = document.getElementById('lightboxClose');
+
+    function openLightbox(src, alt) {
+      lightboxImg.src = src;
+      lightboxImg.alt = alt;
+      lightbox.hidden = false;
+      requestAnimationFrame(() => {
+        lightbox.classList.add('active');
+      });
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+      setTimeout(() => {
+        lightbox.hidden = true;
+        lightboxImg.src = '';
+      }, 300);
+    }
+
+    document.querySelectorAll('.carousel-slide').forEach(slide => {
+      slide.addEventListener('click', () => {
+        const img = slide.querySelector('img');
+        openLightbox(img.src, img.alt);
+      });
+    });
+
+    lightboxClose.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+        closeLightbox();
+      }
+    });
+  </script>
+</body>
+</html>
