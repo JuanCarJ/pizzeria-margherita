@@ -37,27 +37,27 @@
 ## Logo
 | Variant | Path | Notes |
 |---------|------|-------|
-| Primary | `../fotos/logo.png` | Pizza peel with M, wheat laurels, crown |
-| Banner | `../fotos/Banner pizza 2.jpg` | Full brand banner with breads and pizza |
-| Instagram | `../fotos/Instagram profile picture.jpg` | Small profile picture |
+| Primary | `fotos/logo.png` | Pizza peel with M, wheat laurels, crown |
+| Banner | `fotos/Banner pizza 2.jpg` | Full brand banner with breads and pizza |
+| Instagram | `fotos/Instagram profile picture.jpg` | Small profile picture |
 
 ## Images
 | Purpose | Path / Description |
 |---------|--------------------|
-| Hero BG | `../fotos/Banner pizza 2.jpg` — Dark wood with logo, breads, and pizza |
-| Bufalina | `../fotos/WhatsApp Image 2026-02-07 at 17.16.38.jpeg` — Beautiful margherita bufalina |
-| Prosciutto | `../fotos/WhatsApp Image 2026-02-28 at 17.23.45.jpeg` — Prosciutto e funghi |
-| Loaded | `../fotos/WhatsApp Image 2026-02-22 at 13.11.26.jpeg` — Close-up loaded pizza |
-| Tocineta | `../fotos/WhatsApp Image 2026-02-03 at 17.48.02.jpeg` — Bacon pizza |
-| Hawaiana | `../fotos/WhatsApp Image 2026-01-29 at 18.03.18.jpeg` — Hawaiana |
-| Side cut | `../fotos/WhatsApp Image 2026-01-25 at 17.04.09.jpeg` — Side view thick crust |
-| Half/half | `../fotos/WhatsApp Image 2025-12-10 at 17.51.26.jpeg` — Half pepperoni half hawaiana |
-| Romana | `../fotos/IMG-20210927-WA0029.jpg` — Romana al Taglio |
-| Chicago | `../fotos/IMG-20210927-WA0032.jpg` — Chicago deep dish |
-| Berenjena | `../fotos/IMG-20210927-WA0036.jpg` — Berenjena Parmesana |
-| Lasagna | `../fotos/Lasagna.jpg` — Homemade lasagna |
-| Flan | `../fotos/IMG-20210927-WA0038.jpg` — Flan de Caramelo |
-| Bread | `../fotos/P_20210930_114126.jpg` — Artisanal bread |
+| Hero BG | `fotos/Banner pizza 2.jpg` — Dark wood with logo, breads, and pizza |
+| Bufalina | `fotos/WhatsApp Image 2026-02-07 at 17.16.38.jpeg` — Beautiful margherita bufalina |
+| Prosciutto | `fotos/WhatsApp Image 2026-02-28 at 17.23.45.jpeg` — Prosciutto e funghi |
+| Loaded | `fotos/WhatsApp Image 2026-02-22 at 13.11.26.jpeg` — Close-up loaded pizza |
+| Tocineta | `fotos/WhatsApp Image 2026-02-03 at 17.48.02.jpeg` — Bacon pizza |
+| Hawaiana | `fotos/WhatsApp Image 2026-01-29 at 18.03.18.jpeg` — Hawaiana |
+| Side cut | `fotos/WhatsApp Image 2026-01-25 at 17.04.09.jpeg` — Side view thick crust |
+| Half/half | `fotos/WhatsApp Image 2025-12-10 at 17.51.26.jpeg` — Half pepperoni half hawaiana |
+| Romana | `fotos/IMG-20210927-WA0029.jpg` — Romana al Taglio |
+| Chicago | `fotos/IMG-20210927-WA0032.jpg` — Chicago deep dish |
+| Berenjena | `fotos/IMG-20210927-WA0036.jpg` — Berenjena Parmesana |
+| Lasagna | `fotos/Lasagna.jpg` — Homemade lasagna |
+| Flan | `fotos/IMG-20210927-WA0038.jpg` — Flan de Caramelo |
+| Bread | `fotos/P_20210930_114126.jpg` — Artisanal bread |
 
 ### Image guidelines
 - Photography style: warm, rustic, overhead and close-up food shots
